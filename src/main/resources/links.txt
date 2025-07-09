@@ -1,0 +1,18 @@
+---- Charset ----
+https://www.tutorialspoint.com/difference-between-utf-8-and-utf-16
+
+
+---- Java Keywords ----
+https://www.w3schools.com/java/java_ref_keywords.asp
+
+
+---- JDK vs JRE vs JVM ----
+https://www.geeksforgeeks.org/differences-jdk-jre-jvm/
+
+
+---- JDK 8, 21 Installation website ----
+https://adoptium.net/temurin/releases/?os=windows&arch=x64&package=jdk&version=21
+
+
+---- Java Installation with Env variables ----
+https://youtu.be/IJ-PJbvJBGs
