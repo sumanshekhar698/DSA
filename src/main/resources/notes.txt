@@ -1,0 +1,89 @@
+
+Java 1.7 
+
+Java 1.8 2015 Java 8 *
+Java 9
+Java 10
+Java 11 *
+Java 12,13,14,15,16
+Java 17*
+18 19 20
+Java 21*
+22
+
+* they are called LTS verion
+Long Term Support
+
+
+Java 8*
+Java 21*
+Vendor
+
+JDK :: Java Dev Kit
+JRE :: Java Virtual Machine
+
+Setting Env Variables
+
+
+-------------- compilation --------------
+Main.java (Source Code)  ---- javac Main.java ----> Main.class (Class File, Intermediate code, Bytecode)
+
+
+-------------- execution --------------
+Main.class ---- java Main ----> o/p "Hello World"
+
+
+
+
+
+
+
+
+
+
+
+--------- Softwares: ---------
+
+
+-Notepad ++
+-Java[JDK] 8*
+-Java[JDK] 21*
+-Eclipse
+
+
+--------- keywords ---------
+keywords
+
+--------- packages ---------
+www.codecounty.dev
+dev.codecounty.topic
+
+package com.java.basics;
+
+com >
+	java >
+		basics
+		
+structuring your code
+and managing permissions
+
+
+--------- OOPS  (Object Oriented Programming System) ---------
+- Constructors
+- Objects
+- Behind the scene
+- Wrapper classes
+
+--------- Strings ---------
+
+
+--------- Arrays ---------
+
+
+
+--------- Pillars of OOPS ---------
+- Abstraction
+- Polymorphism
+- Inheritance
+- Abstraction
+
