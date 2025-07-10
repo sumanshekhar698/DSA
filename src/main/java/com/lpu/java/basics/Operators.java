@@ -1,4 +1,4 @@
-package com.lpu;
+package com.lpu.java.basics;
 
 public class Operators {
 

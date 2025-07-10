@@ -1,4 +1,4 @@
-package com.lpu;
+package com.lpu.java.basics;
 
 
 //R1: Class namees should exactly match the file name
