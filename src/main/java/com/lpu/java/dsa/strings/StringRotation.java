@@ -1,4 +1,4 @@
-package com.lpu.java.dsa.bit_magic.strings;
+package com.lpu.java.dsa.strings;
 
 public class StringRotation {
 
