@@ -1,6 +1,6 @@
 package com.lpu.java.dsa.binary_search;
 
-public class _33SearchInRotatedSortedArray {
+public class _33SearchInRotatedSortedArrayEnhanced {
 
     public static void main(String[] args) {
 
@@ -18,6 +18,7 @@ public class _33SearchInRotatedSortedArray {
 //     LSP 4 5 6 7     RSP 0 1 2
 
         int l = 0, r = nums.length - 1, mid;
+
         while (l <= r) {
             mid = (l + r) / 2;
             if (nums[mid] == target)
@@ -31,7 +32,7 @@ public class _33SearchInRotatedSortedArray {
                     r = mid - 1;
                 }
             } else {//RSP
-                if (target < nums[mid] || (target > nums[mid] && target > nums[r])) {//Search the Left portion
+                if (target < nums[mid] || target > nums[r]) {//Search the Left portion
                     r = mid - 1;
                 } else {//it means the target is > nums[mid[ BUT smaller than nums[r]
                     l = mid + 1;

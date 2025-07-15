@@ -9,7 +9,7 @@ public class _561ArrayPartition {
     }
 
     public int arrayPairSum(int[] nums) {
-        Arrays.sort(nums);//min to max to mak the maxsum highest
+        Arrays.sort(nums);//min to max to make the maxsum highest
         int sum = 0;
         for (int i = 0; i < nums.length; i += 2) {
             sum += Integer.min(nums[i], nums[i + 1]);
