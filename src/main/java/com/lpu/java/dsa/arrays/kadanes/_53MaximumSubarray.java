@@ -19,4 +19,29 @@ public class _53MaximumSubarray {
         return max;
 
     }
+
+
+    public int maxSubArraySimplified(int[] nums) {
+
+        int currentSum = nums[0];//will have atleast one element
+        int max = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+
+
+            if (currentSum >= 0) {
+                currentSum += nums[i];
+            } else {
+                currentSum = nums[i];
+            }
+
+//            max = Math.max(currentSum, max);
+
+            if (currentSum > max) {
+                max = currentSum;
+            }
+        }
+        return max;
+
+    }
 }
