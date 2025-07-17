@@ -1,4 +1,4 @@
-package com.lpu.java.dsa.arrays;
+package com.lpu.java.dsa.arrays.two_pointers;
 
 import java.util.Arrays;
 

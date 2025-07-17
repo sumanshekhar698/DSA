@@ -1,4 +1,4 @@
-package com.lpu.java.dsa.arrays;
+package com.lpu.java.dsa.arrays.general;
 
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=study-plan-v2&envId=top-interview-150
 public class _121BestTimeToBuyAndSellStock {

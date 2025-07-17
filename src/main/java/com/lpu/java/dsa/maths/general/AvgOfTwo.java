@@ -1,4 +1,4 @@
-package com.lpu.java.dsa.maths;
+package com.lpu.java.dsa.maths.general;
 
 public class AvgOfTwo {
 
