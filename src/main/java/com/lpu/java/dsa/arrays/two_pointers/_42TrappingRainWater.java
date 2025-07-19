@@ -7,7 +7,7 @@ public class _42TrappingRainWater {
 //    https://www.youtube.com/watch?v=ZI2z5pq0TqA&t=85s
     public static void main(String[] args) {
         int[] height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        int trap = trap(height);
+        int trap = trapWithSpaceNotOptimized(height);
         System.out.println(trap);
 
     }
@@ -31,7 +31,7 @@ public class _42TrappingRainWater {
                 maxWater += (water > 0) ? water : 0;//if water is -ve then we don't need to add it
                 maxL = Math.max(height[i], maxL);//update maxL before next iteration
             } else {
-                j--;////shifting j towards left at starting only as the extreme positions cannot hold any water
+                j--;//shifting j towards left at starting only as the extreme positions cannot hold any water
                 int water = maxR - height[j];
                 maxWater += (water > 0) ? water : 0;
                 maxR = Math.max(height[j], maxR);
@@ -75,7 +75,7 @@ public class _42TrappingRainWater {
         System.out.println(Arrays.toString(maxR));
 
 
-        for (int i = 0; i < minLR.length; i++) {//enrich maxL
+        for (int i = 0; i < minLR.length; i++) {//enrich minLR
             minLR[i] = Math.min(maxL[i], maxR[i]);
         }
         System.out.println(Arrays.toString(minLR));

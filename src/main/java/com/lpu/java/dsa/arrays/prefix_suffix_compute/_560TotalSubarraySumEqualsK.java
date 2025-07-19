@@ -1,6 +1,5 @@
-package com.lpu.java.dsa.arrays.prefix_sum;
+package com.lpu.java.dsa.arrays.prefix_suffix_compute;
 
-import java.util.Collections;
 import java.util.HashMap;
 
 public class _560TotalSubarraySumEqualsK {

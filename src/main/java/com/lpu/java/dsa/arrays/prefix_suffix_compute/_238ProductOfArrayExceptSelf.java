@@ -1,4 +1,4 @@
-package com.lpu.java.dsa.arrays.general;
+package com.lpu.java.dsa.arrays.prefix_suffix_compute;
 
 import java.util.Arrays;
 
@@ -7,11 +7,12 @@ public class _238ProductOfArrayExceptSelf {
 
     public static void main(String[] args) {
 
-        int[] nums = {2, 3, 4, 5};
+        int[] nums0 = {2, 3, 4, 5};
+        int[] nums1 = {1, 2, 3, 4};
         int[] nums2 = {-1, 1, 0, -3, 3};
         int[] nums3 = {3, 6, 5, 2, 1};
 
-        int[] ints = new Solution().productExceptSelfLinear(nums);
+        int[] ints = new Solution().productExceptSelf(nums1);
         System.out.println(Arrays.toString(ints));
     }
 
