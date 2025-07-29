@@ -14,7 +14,7 @@ public class _322CoinChange {
 
     static public int coinChange(int[] coin, int amount) {
         int[] dp = new int[amount + 1];//0->amount
-        Arrays.fill(dp, amount + 1);//max amount beyond the amount
+        Arrays.fill(dp, amount + 1);//max possible amount beyond the int amount
         dp[0] = 0;//BASE Case
 
 //       O Time : O(amount*len(coins))
@@ -27,7 +27,7 @@ public class _322CoinChange {
             }
         }
 
-        return dp[amount] == Integer.MAX_VALUE - 1 ? -1 : dp[amount];
+        return dp[amount] == amount + 1 ? -1 : dp[amount];
 
     }
 }
